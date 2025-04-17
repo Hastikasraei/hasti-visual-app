@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasti's Shape Visualizer</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      font-family: sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      color: #00ff66;
+      margin: 10px 0;
+      font-family: monospace;
+    }
+    canvas {
+      display: block;
+      margin: 0 auto;
+    }
+    .ui-container {
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      background: #111;
+      width: 100%;
+      position: relative;
+      z-index: 10;
+    }
+    .ui-container * {
+      font-size: 12px;
+    }
+    .record-button {
+      background-color: red;
+      color: white;
+      padding: 5px 12px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>☻</h1>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ccapture.js/1.1.0/CCapture.all.min.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
